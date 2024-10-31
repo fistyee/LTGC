@@ -68,3 +68,15 @@ python lmm_extension.py -exi $EXIST_DESCRIPTION_FILE -m $MAX_GENERATED_IMAGES -e
 ``` bash
 python draw_i2t.py -ext $EXTEND_DESCRIPTION_FILE -d $DATASET_PATH -t $THRESH -r $MAX_ROUNDS
 ```
+ 
+## Citation
+
+```
+@inproceedings{zhao2024ltgc,
+  title={LTGC: Long-tail Recognition via Leveraging LLMs-driven Generated Content},
+  author={Zhao, Qihao and Dai, Yalun and Li, Hao and Hu, Wei and Zhang, Fan and Liu, Jun},
+  booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
+  pages={19510--19520},
+  year={2024}
+}
+```
